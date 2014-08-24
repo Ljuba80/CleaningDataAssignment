@@ -26,7 +26,11 @@ tidyDS[,81]<-as.factor(tidyDS[,81])
 levels(tidyDS[,81])<-activityLabels$V2
 
 #step4
-names(tidyDS)<-c(as.character(features$V2[matches]),"Subject","Activity")
+tempNames<-c(as.character(features$V2[matches]))
+#remove(),replace - with _
+tempNames<-gsub("-", "_", tempNames)   
+tempNames<-gsub("\\()", "", tempNames)  
+names(tidyDS)<-c(tempNames,"Subject","Activity")
 
 #step5
 aggData<-aggregate(tidyDS[,1:79], by=list(Subject=tidyDS$Subject,Activity=tidyDS$Activity),FUN=mean,na.rm=TRUE)
