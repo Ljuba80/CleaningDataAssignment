@@ -17,12 +17,14 @@ This step is done by using grepl with regex. Note that all main(), std(), main..
 stuff is detected resulting in 79 variables total. Those variables are selected from
 initial dataset and two more variables are added. Note that in this step are appropriate
 subject and activity variables are merged (prior to adding to tidyDS)
-####1. subjectTest and subjectTrain are merged (by row)
-####2. testYdata and trainydata are merged (by row)
-####3. Data frames obtained by 1 and 2 are marged together (by column)
-####4. Result dataset is merged with tidyDS
+
+1. subjectTest and subjectTrain are merged (by row)
+2. testYdata and trainydata are merged (by row)
+3. Data frames obtained by 1 and 2 are marged together (by column)
+4. Result dataset is merged with tidyDS
 
 ### naming activities in tidyDS with descriptive names
+
 In this step data obtained from activity_labels.txt is used directly
 in conjuction with levels function
 
