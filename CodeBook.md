@@ -2,7 +2,7 @@ Getting and Cleaning data - course project - codeBOOK
 ===========
 
 Purpose of this document is breaf explanation of each variable in resulting dataset created for this assignment. Altough result dataset represent averages
-I choosed to show statistics such as mean, median of those averages. For frequency signals (f suffix) same text holds, just those are frequency domain sygnals (to be honest didn't have time to fill those)
+I choosed to show statistics such as mean, median of those averages. 
 
 #####1. Subject
           Subject performing experiment
@@ -264,79 +264,234 @@ I choosed to show statistics such as mean, median of those averages. For frequen
           max:      0.5370 
           mean:    -0.5758
           median:  -0.7691
-
 #####44. fBodyAcc_mean_Y
-
+          Mean value (frequency domain) of acceleration (body component) signal - y component
+          min:     -0.98900
+          max:      0.52420
+          mean:    -0.48870
+          median:  -0.59500
 #####45. fBodyAcc_mean_Z
-
+          Mean value (frequency domain) of acceleration (body component) signal - z component
+          min:     -0.9895
+          max:      0.2807
+          mean:    -0.6297
+          median:  -0.7236
 #####46. fBodyAcc_std_X
-
+          Std value (frequency domain) of acceleration (body component) signal - x component
+          min:    -0.9966
+          max:     0.6585 
+          mean:   -0.5522
+          median: -0.7470 
 #####47. fBodyAcc_std_Y
-
+          Std value (frequency domain) of acceleration (body component) signal - y component
+          min:    -0.99070
+          max:     0.56020
+          mean:   -0.48150
+          median: -0.51340 
 #####48. fBodyAcc_std_Z
-
+          Std value (frequency domain) of acceleration (body component) signal - z component
+          min:    -0.9872
+          max:     0.6871 
+          mean:   -0.5824
+          median: -0.6441
 #####49. fBodyAcc_meanFreq_X
-
+          Weighted average of the frequency components to obtain mean frequency - for acceleration - x direction
+          min:    -0.63590
+          max:     0.15910  
+          mean:   -0.23230
+          median: -0.25730
 #####50. fBodyAcc_meanFreq_Y
-
+          Weighted average of the frequency components to obtain mean frequency - for acceleration - y direction
+          min:    -0.379500
+          max:     0.466500  
+          mean:    0.011530
+          median:  0.007855
 #####51. fBodyAcc_meanFreq_Z
-
+          Weighted average of the frequency components to obtain mean frequency for acceleration - z direction
+          min:    -0.52010
+          max:     0.40250  
+          mean:    0.04372
+          median:  0.06582
 #####52. fBodyAccJerk_mean_X
-
+          Mean value (frequency domain) of acceleration Jerk signal - x direction
+          min:     -0.9946
+          max:      0.4743 
+          mean:    -0.6139
+          median:  -0.8126
 #####53. fBodyAccJerk_mean_Y
-
+          Mean value (frequency domain) of acceleration Jerk signal - y direction
+          min:     -0.9894
+          max:      0.2767 
+          mean:    -0.5882
+          median:  -0.7817
 #####54. fBodyAccJerk_mean_Z
-
-#####55. fBodyAccJerk_std_X            
-
+          Mean value (frequency domain) of acceleration Jerk signal - z direction
+          min:     -0.9920
+          max:      0.1578 
+          mean:    -0.7144
+          median:  -0.8707
+#####55. fBodyAccJerk_std_X 
+          Std value (frequency domain) of acceleration Jerk signal - x direction
+          min:     -0.9951
+          max:      0.4768 
+          mean:    -0.6121
+          median:  -0.8254
 #####56. fBodyAccJerk_std_Y
-
+          Std value (frequency domain) of acceleration Jerk signal - y direction
+          min:     -0.9905
+          max:      0.3498
+          mean:    -0.5707
+          median:  -0.7852
 #####57. fBodyAccJerk_std_Z
-
+          Std value (frequency domain) of acceleration Jerk signal - z direction
+          min:     -0.993100
+          max:     -0.006236 
+          mean:    -0.756500
+          median:  -0.895100
 #####58. fBodyAccJerk_meanFreq_X
-
+           Weighted average of the frequency components to obtain mean frequency - for acceleration (Jerk signal) - x direction
+          min:    -0.57600
+          max:     0.33140   
+          mean:   -0.06910
+          median: -0.06091
 #####59. fBodyAccJerk_meanFreq_Y
-
+          Weighted average of the frequency components to obtain mean frequency - for acceleration (Jerk signal) - y direction
+          min:    -0.60200
+          max:     0.19570   
+          mean:   -0.22810
+          median: -0.23210
 #####60. fBodyAccJerk_meanFreq_Z
-
+          Weighted average of the frequency components to obtain mean frequency - for acceleration (Jerk signal) - z direction
+          min:    -0.62760
+          max:     0.23010 
+          mean:   -0.13760
+          median: -0.09187
 #####61. fBodyGyro_mean_X
-
+          Mean value (frequency domain) of angular velocity (body component) signal - x component
+          min:    -0.9931
+          max:     0.4750 
+          mean:   -0.6367
+          median: -0.7300
 #####62. fBodyGyro_mean_Y
-
+          Mean value (frequency domain) of angular velocity (body component) signal - y component
+          min:    -0.9940 
+          max:     0.3288  
+          mean:   -0.6767
+          median: -0.8141
 #####63. fBodyGyro_mean_Z
-
+           Mean value (frequency domain) of angular velocity (body component) signal - z component
+          min:    -0.9860
+          max:     0.4924 
+          mean:   -0.6044
+          median: -0.7909
 #####64. fBodyGyro_std_X
-
+          Std value (frequency domain) of angular velocity (body component) signal - x component
+          min:    -0.9947
+          max:     0.1966 
+          mean:   -0.7110
+          median: -0.8086
 #####65. fBodyGyro_std_Y
-
+          Std value (frequency domain) of angular velocity (body component) signal - y component
+          min:    -0.9944
+          max:     0.6462 
+          mean:   -0.6454
+          median: -0.7964
 #####66. fBodyGyro_std_Z
-
+          Std value (frequency domain) of angular velocity (body component) signal - z component
+          min:    -0.9867
+          max:     0.5225
+          mean:   -0.6577
+          median: -0.8224
 #####67. fBodyGyro_meanFreq_X
-
+          Weighted average of the frequency components to obtain mean frequency - for angular velocity  - x direction
+          min:    -0.395800
+          max:     0.249200   
+          mean:   -0.104600
+          median: -0.115500
 #####68. fBodyGyro_meanFreq_Y
-
+          Weighted average of the frequency components to obtain mean frequency - for angular velocity  - y direction
+          min:    -0.66680
+          max:     0.27310    
+          mean:   -0.16740
+          median: -0.15790
 #####69. fBodyGyro_meanFreq_Z
-
+          Weighted average of the frequency components to obtain mean frequency - for angular velocity  - z direction
+          min:    -0.50750
+          max:     0.37710    
+          mean:   -0.05718
+          median: -0.05081
 #####70. fBodyAccMag_mean
-
+          Mean value (frequency domain) of acceleration magnitude (body component) signal
+          min:    -0.9868
+          max:     0.5866 
+          mean:   -0.5365
+          median: -0.6703
 #####71. fBodyAccMag_std
+          Std value (frequency domain) of acceleration magnitude (body component) signal
+          min:    -0.9876
+          max:     0.1787 
+          mean:   -0.6210
+          median: -0.6513
 
 #####72. fBodyAccMag_meanFreq
-
+          Weighted average of the frequency components to obtain mean frequency for acceleration magnitude
+          min:    -0.31230
+          max:     0.43580  
+          mean:    0.07613
+          median:  0.08132
 #####73. fBodyBodyAccJerkMag_mean
-
+          Mean value (frequency domain) of acceleration magnitude (Body component) Jerk signal
+          min:    -0.9940
+          max:     0.5384
+          mean:   -0.5756
+          median: -0.7940
 #####74. fBodyBodyAccJerkMag_std
-
+          Std value (frequency domain) of acceleration magnitude (Body component) Jerk signal
+          min:    -0.9944
+          max:     0.3163
+          mean:   -0.5992
+          median: -0.8126
 #####75. fBodyBodyAccJerkMag_meanFreq
-
+          Weighted average of the frequency components to obtain mean frequency for acceleration magnitude (Jerk signal)
+          min:    -0.12520
+          max:     0.48810   
+          mean:    0.16250
+          median:  0.17200
 #####76. fBodyBodyGyroMag_mean
-
-#####77. fBodyBodyGyroMag_std          
-
-#####78. fBodyBodyGyroMag_meanFreq    
+          Mean value (frequency domain) of angular velocity magnitude (body component) signal
+          min:    -0.9865
+          max:     0.2040 
+          mean:   -0.6671
+          median: -0.7657
+#####77. fBodyBodyGyroMag_std
+          Std value (frequency domain) of angular velocity magnitude (body component) signal
+          min:    -0.9815
+          max:     0.2367
+          mean:   -0.6723
+          median: -0.7727
+#####78. fBodyBodyGyroMag_meanFreq   
+          Weighted average of the frequency components to obtain mean frequency for angular velocity magnitude
+          min:    -0.45660
+          max:     0.40950   
+          mean:   -0.03603
+          median: -0.05352
 
 #####79. fBodyBodyGyroJerkMag_mean
-
+          Mean value (frequency domain) of angular velocity magnitude (Body component) Jerk signal
+          min:    -0.9976
+          max:     0.1466 
+          mean:   -0.7564
+          median: -0.8779
 #####80. fBodyBodyGyroJerkMag_std
+          Mean value (frequency domain) of angular velocity magnitude (Body component) Jerk signal
+          min:    -0.9976
+          max:     0.2878  
+          mean:   -0.7715
+          median: -0.8941
 
-#####81. fBodyBodyGyroJerkMag_meanFreq                    
+#####81. fBodyBodyGyroJerkMag_meanFreq 
+          Weighted average of the frequency components to obtain mean frequency for angular velocity magnitude (Jerk signal)
+          min:    -0.18290
+          max:     0.42630  
+          mean:    0.12590
+          median:  0.11160
