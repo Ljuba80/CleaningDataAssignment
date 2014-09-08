@@ -36,5 +36,5 @@ names(tidyDS)<-c(tempNames,"Subject","Activity")
 aggData<-aggregate(tidyDS[,1:79], by=list(Subject=tidyDS$Subject,Activity=tidyDS$Activity),FUN=mean,na.rm=TRUE)
 
 #Write table
-write.table(aggData,"tidy.txt",col.names=FALSE)
+write.table(aggData,"tidy.txt",col.names=TRUE)
 
