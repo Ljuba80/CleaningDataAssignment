@@ -2,8 +2,7 @@ Getting and Cleaning data - course project
 ===========
 
 Aim of this project is to apply knowledge on data preparation
-on real practical problem. I am writing this down and drinking brandy, 
-so sorry for (unintentional) errors
+on real practical problem.
 
 ### Load data
 
