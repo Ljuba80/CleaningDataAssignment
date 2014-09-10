@@ -12,6 +12,7 @@ features<-read.table(".\\UCI HAR Dataset\\features.txt")
 #Labels
 activityLabels<-read.table(".\\UCI HAR Dataset\\activity_labels.txt")
 
+
 finalDataSet<-rbind(testXData,trainXData)
 
 #step2

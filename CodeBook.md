@@ -4,6 +4,8 @@ Getting and Cleaning data - course project - codeBOOK
 Purpose of this document is breaf explanation of each variable in resulting dataset created for this assignment. Altough result dataset represent averages
 I choosed to show statistics such as mean, median of those averages. 
 
+
+
 #####1. Subject
           Subject performing experiment
           Range: [1,30]
